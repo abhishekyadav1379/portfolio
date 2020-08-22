@@ -188,6 +188,9 @@ li:hover
     .second{
       width: 100%;
     }
+    #intro{
+        margin-left: 30%;
+    }
     .quali-head{
         width: 50%;
         font-size: 2rem;
