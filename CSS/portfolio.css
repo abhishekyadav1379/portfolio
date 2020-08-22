@@ -218,8 +218,9 @@ li:hover
     .proj{
         height: 70vh;
     }
-    fa{
+    .fa{
         margin-top: 50%;
+        margin-left: 30px;
     }
     .fa-twitter{
         display: none;
