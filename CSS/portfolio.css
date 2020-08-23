@@ -226,9 +226,9 @@ li:hover
         margin-top: 50px;
         margin-left: 30%;
     }
-    /* .cont-head{
-        font-size: 3rem;
-    } */
+    .cont-head{
+        font-size: 2rem;
+    }
     .points{
         font-size: 20px;
     }
