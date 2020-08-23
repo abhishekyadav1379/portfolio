@@ -12,7 +12,6 @@ html{
 nav{
     position: fixed;
     height: 80px;
-    position: fixed;
     width: 100%;
 }
 
@@ -84,8 +83,16 @@ ul li a:hover{
 }
 
 .edu{
+    height: 60%;
+    height: 100vh; 
+    background-image: url(../image/book.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cont{
     background-color: #494d5f;
-    height: 60vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 }
@@ -105,12 +112,21 @@ ul li a:hover{
     font-size:4rem;
     color:#217ff1;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-left: 40%;
     position: absolute;
     
 }
 
+.cont-head {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size:4rem;
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+    
+}
 /* --section points--- */
 .points{
     font-size: 25px;
@@ -140,8 +156,8 @@ li:hover
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    margin-top: 160px;
-    margin-left: 180px;
+    margin-top: 50px;
+    /* margin-left: 180px; */
   }
   
 .fa:hover {
@@ -164,6 +180,7 @@ li:hover
 .fa-instagram {
   background: #125688;
   color: white;
+  margin-left: 40%;
 }
 
 .fa-twitter {
@@ -209,7 +226,12 @@ li:hover
         margin-top: 50px;
         margin-left: 30%;
     }
-
+    .edu{
+        height: 70vh;
+    }
+    .cont-head{
+        font-size: 3rem;
+    }
     .points{
         font-size: 20px;
     }
