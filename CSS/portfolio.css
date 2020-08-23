@@ -226,12 +226,9 @@ li:hover
         margin-top: 50px;
         margin-left: 30%;
     }
-    .edu{
-        height: 70vh;
-    }
-    .cont-head{
+    /* .cont-head{
         font-size: 3rem;
-    }
+    } */
     .points{
         font-size: 20px;
     }
